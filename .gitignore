@@ -1,0 +1,7 @@
+sisuland-web/bower.json
+sisuland-web/Gruntfile.js
+sisuland-web/gulpfile.js
+sisuland-web/nbproject/*
+sisuland-web/package.json
+sisuland-web/.bowerrc
+sisuland-web/test/*
