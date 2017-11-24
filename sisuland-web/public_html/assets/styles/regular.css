@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo|Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
 
 * {
 	box-sizing: border-box;
@@ -12,12 +12,16 @@ html, body{
 	min-height: 100%;
 }
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #0A313C;
+	
+}
+body, .columns .column {
 	font-size: 16px;
 }
-h2, .nav {
-	font-family: 'Baloo', sans-serif;
+h2, .nav, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
 }
 h2{
 	color: #6E97A2;
@@ -42,7 +46,6 @@ h2{
 	box-shadow: 0px 0px 40px -3px rgba(0,0,0,0.4);
 	border-radius: 8px;
 	text-transform: uppercase;
-	font-family: 'Baloo', sans-serif;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -81,7 +84,7 @@ h2{
 .nav a {
 	height: 100px;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 100px; 
 	width: calc(100% / 2);
 	text-align: center;
@@ -94,6 +97,9 @@ h2{
 .section {
 	position: relative;
 }
+.section.padded {
+	padding: 0px 40px;
+}
 .section .wave-edge {
 	position: absolute;
 	width: calc(100%);
@@ -103,4 +109,24 @@ h2{
 }
 .section[data-section="services"] {
 	
+}
+.columns h3 {
+	font-size: 1.5em;
+	text-align: center;
+}
+.columns {
+	width: 100%;
+}
+.columns .column {
+	width: calc(100% / 3);
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+.columns .column .icon {
+	width: 100px;
+	margin: 20px auto;
+}
+.columns .column .icon img {
+	width: 100%;
 }
