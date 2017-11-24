@@ -14,10 +14,21 @@ html, body{
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #0A313C;
+	font-size: 16px;
+}
+h2, .nav {
+	font-family: 'Baloo', sans-serif;
+}
+h2{
+	color: #6E97A2;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	padding: 40px 20px;
 }
 .section[data-section="title"] {
-	position: absolute;
-	height: 100%;
+	height: 90vh;
+	min-height: 400px;
 	width: 100%;
 	background-image: url("../images/bighorns.jpg");
 	background-size: cover;
@@ -79,4 +90,17 @@ body {
 .nav a:hover{
 	background: #599577;
 	color: #ffffff;
+}
+.section {
+	position: relative;
+}
+.section .wave-edge {
+	position: absolute;
+	width: calc(100%);
+	height: 105px;
+	top: -105px;
+	left: 0px;
+}
+.section[data-section="services"] {
+	
 }
