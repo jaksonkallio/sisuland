@@ -17,7 +17,7 @@ body {
 	
 }
 body, .columns .column {
-	font-size: 16px;
+	font-size: 18px;
 }
 h2, .nav, h3 {
 	font-family: 'Open Sans', sans-serif;
@@ -98,7 +98,7 @@ h2{
 	position: relative;
 }
 .section.padded {
-	padding: 0px 40px;
+	padding: 0px 40px 40px 40px;
 }
 .section .wave-edge {
 	position: absolute;
@@ -106,6 +106,15 @@ h2{
 	height: 105px;
 	top: -105px;
 	left: 0px;
+}
+.section.highlight {
+	background: #6E97A2;
+}
+.section.dark {
+	background: #ecf0f1;
+}
+.section.highlight, .section.highlight h2 {
+	color: #ffffff;
 }
 .section[data-section="services"] {
 	
@@ -129,4 +138,27 @@ h2{
 }
 .columns .column .icon img {
 	width: 100%;
+}
+.section[data-section="contact"] .contact {
+	width: 500px;
+	text-align: center;
+	margin: 20px auto;
+}
+.section[data-section="contact"] .contact .method img {
+	height: 40px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+.section[data-section="contact"] .contact .method span {
+	display: inline-block;
+	font-size: 1.5em;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 20px;
+	vertical-align: top;
+}
+.section[data-section="about"] p {
+	width: calc(50%);
+	margin: 0px auto;
+	text-align: justify;
 }
