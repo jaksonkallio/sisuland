@@ -100,6 +100,9 @@ h2{
 .section.padded {
 	padding: 0px 40px 40px 40px;
 }
+.section.full-padded {
+	padding: 40px;
+}
 .section .wave-edge {
 	position: absolute;
 	width: calc(100%);
@@ -113,7 +116,10 @@ h2{
 .section.dark {
 	background: #ecf0f1;
 }
-.section.highlight, .section.highlight h2 {
+.section.black {
+	background: #0A313C;
+}
+.section.highlight, .section.highlight h2, .section.black {
 	color: #ffffff;
 }
 .section[data-section="services"] {
@@ -161,4 +167,10 @@ h2{
 	width: calc(50%);
 	margin: 0px auto;
 	text-align: justify;
+}
+.section[data-section="footer"] {
+	text-align: center;
+}
+.section[data-section="footer"] a {
+	text-decoration: underline;
 }
