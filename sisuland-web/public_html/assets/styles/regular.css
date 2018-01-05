@@ -31,68 +31,21 @@ h2{
 	padding: 40px 20px;
 }
 .section[data-section="title"] {
-	height: 90vh;
+	height: 50vh;
+	position: relative;
 	min-height: 400px;
 	width: 100%;
 	background-image: url("../images/bighorns.jpg");
 	background-size: cover;
 	background-position: center center;
 }
-.nav {
-	width: 815px;
-	padding: 0px;
-	height: 100px;
-	background: #ffffff;
-	box-shadow: 0px 0px 40px -3px rgba(0,0,0,0.4);
-	border-radius: 8px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	margin-top: 40px;
-}
-.nav .logo, .nav .right, .nav .left{
-	height: 100%;
-	display: inline-block;
-	vertical-align: top;
-}
-.nav .logo {
-	padding: 20px 0px;
-}
-.nav .logo img {
-	height: 60px;
-	width: 115px;
-}
-.nav .right, .nav .left {
-	width: 350px;
-	font-size: 0;
-}
-.nav .right {
-	padding-left: 20px;
-}
-.nav .right a:last-child{
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-}
-.nav .left a:first-child{
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
-}
-.nav .left {
-	padding-right: 20px;
-}
-.nav a {
-	height: 100px;
-	display: inline-block;
-	font-size: 18px;
-	line-height: 100px; 
-	width: calc(100% / 2);
-	text-align: center;
-	transition: all 0.2s;
-}
-.nav a:hover{
-	background: #599577;
-	color: #ffffff;
+.section[data-section="title"] .logo {
+    max-width: calc(30%);
+    max-height: 30vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-75%);
 }
 .section {
 	position: relative;
