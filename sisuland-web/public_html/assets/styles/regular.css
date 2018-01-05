@@ -1,43 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 a {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 html, body{
-	margin: 0;
-	min-height: 100%;
+    margin: 0;
+    min-height: 100%;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
-	color: #0A313C;
-	
+    font-family: 'Open Sans', sans-serif;
+    color: #0A313C;
+
 }
 body, .columns .column {
-	font-size: 18px;
+    font-size: 18px;
 }
 h2, .nav, h3 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 h2{
-	color: #6E97A2;
-	font-size: 3em;
-	text-align: center;
-	margin: 0;
-	padding: 40px 20px;
+    color: #6E97A2;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
 }
 .section[data-section="title"] {
-	height: 50vh;
-	position: relative;
-	min-height: 400px;
-	width: 100%;
-	background-image: url("../images/bighorns.jpg");
-	background-size: cover;
-	background-position: center center;
+    height: 50vh;
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+    background-image: url("../images/bighorns.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 .section[data-section="title"] .logo {
     max-width: calc(30%);
@@ -48,82 +48,95 @@ h2{
     transform: translateX(-50%) translateY(-75%);
 }
 .section {
-	position: relative;
+    position: relative;
 }
 .section.padded {
-	padding: 0px 40px 40px 40px;
+    padding: 0px 40px 40px 40px;
 }
 .section.full-padded {
-	padding: 40px;
+    padding: 40px;
 }
 .section .wave-edge {
-	position: absolute;
-	width: calc(100%);
-	height: 105px;
-	top: -105px;
-	left: 0px;
+    position: absolute;
+    width: calc(100%);
+    height: 105px;
+    top: -105px;
+    left: 0px;
 }
 .section.highlight {
-	background: #6E97A2;
+    background: #6E97A2;
 }
 .section.dark {
-	background: #ecf0f1;
+    background: #ecf0f1;
 }
 .section.black {
-	background: #0A313C;
+    background: #0A313C;
 }
 .section.highlight, .section.highlight h2, .section.black {
-	color: #ffffff;
+    color: #ffffff;
 }
 .section[data-section="services"] {
-	
+
 }
 .columns h3 {
-	font-size: 1.5em;
-	text-align: center;
+    font-size: 1.5em;
+    text-align: center;
 }
 .columns {
-	width: 100%;
+    width: 100%;
 }
 .columns .column {
-	width: calc(100% / 3);
-	padding: 20px;
-	display: inline-block;
-	vertical-align: top;
+    width: calc(100% / 3);
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
 }
 .columns .column .icon {
-	width: 100px;
-	margin: 20px auto;
+    width: 100px;
+    margin: 20px auto;
 }
 .columns .column .icon img {
-	width: 100%;
+    width: 100%;
+}
+.section[data-section="services"] .service {
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+.section[data-section="services"] .service .icon {
+    width: 100px;
+    margin: 20px auto;
+}
+.section[data-section="services"] .service .icon img {
+    width: 100%;
 }
 .section[data-section="contact"] .contact {
-	width: 500px;
-	text-align: center;
-	margin: 20px auto;
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
 }
 .section[data-section="contact"] .contact .method img {
-	height: 40px;
-	margin-top: 5px;
-	vertical-align: top;
+    height: 40px;
+    margin-top: 5px;
+    vertical-align: top;
 }
 .section[data-section="contact"] .contact .method span {
-	display: inline-block;
-	font-size: 1.5em;
-	height: 50px;
-	line-height: 50px;
-	margin-left: 20px;
-	vertical-align: top;
+    display: inline-block;
+    font-size: 1.5em;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    vertical-align: top;
 }
 .section[data-section="about"] p {
-	width: calc(50%);
-	margin: 0px auto;
-	text-align: justify;
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: justify;
 }
 .section[data-section="footer"] {
-	text-align: center;
+    text-align: center;
 }
 .section[data-section="footer"] a {
-	text-decoration: underline;
+    text-decoration: underline;
 }
